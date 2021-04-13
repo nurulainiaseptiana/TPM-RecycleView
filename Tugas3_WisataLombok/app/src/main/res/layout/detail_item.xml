@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bglombok"
+    tools:context=".DetailActivity" >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        app:cardBackgroundColor="@color/cardview_dark_background"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tvnamawisata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Benang Kelambu"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/ivGambarWisata"
+                android:layout_width="290dp"
+                android:layout_height="400dp"
+                android:src="@drawable/benangkelambu" />
+
+            <TextView
+                android:id="@+id/tvdetailwisata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:justificationMode="inter_word"
+                android:text="Jika traveler hendak ke Lombok, cobalah menikmati eksotika alam pegunungan di daerah air terjun Benang Kelambu. Tidak hanya itu, ada dua pilihan tempat yang bisa dikunjungi di sana; air terjun Benang Kelambu dan juga air terjun Benang Stokel.
+Menuju lokasi air terjun, traveler akan melewati kawasan hutan yang sebagian dimanfaatkan sebagai lahan perkebunan oleh warga setempat. Posisi gerbang masuk ke lokasi ini cukup berada di lahan yang tinggi, sehingga untuk menuju ke sana traveler akan menuruni ratusan tingkat anak tangga. Dari gerbang masuk ke Benang Kelambu, traveler akan melalui jalan berkerikil. Sebagian ada yang sudah dibeton. Jalannya cukup lebar, sekira 2 meter. Traveler akan melewati jalan itu yang posisinya membelah perkebunan warga yang mengelola kawasan hutan di sana. Waktu tempuh sekitar 20 menit. Untuk biaya parkir, traveler cukup membayar Rp 2.000 untuk satu motor dan Rp 5.000 untuk mobil. Biaya tiket masuk cukup dengan membayar Rp 5.000 per orang. Di lokasi ini juga disediakan jasa transportasi ojek untuk menuju ke lokasi air terjun Benang Kelambu."
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>
